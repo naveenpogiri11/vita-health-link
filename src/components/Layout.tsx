@@ -131,7 +131,7 @@ const Layout = () => {
           <div className="p-6 md:p-8">
             <div className="flex items-center justify-between mb-6">
               <SidebarTrigger />
-              <h1 className="text-2xl font-bold text-center flex-1">Vita Health Link</h1>
+              <h1 className="text-2xl font-bold text-center flex-1">MediCare Connect</h1>
               <div className="w-10"></div> {/* Empty div for layout balance */}
             </div>
             <Outlet />

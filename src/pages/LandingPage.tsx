@@ -12,8 +12,8 @@ const LandingPage = () => {
       <header className="bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8 flex justify-between items-center">
           <div className="flex items-center">
-            <div className="h-8 w-8 rounded-md health-gradient flex items-center justify-center text-white font-bold mr-2">V</div>
-            <h1 className="text-xl font-bold text-gray-900">Vita Health Link</h1>
+            <div className="h-8 w-8 rounded-md health-gradient flex items-center justify-center text-white font-bold mr-2">M</div>
+            <h1 className="text-xl font-bold text-gray-900">MediCare Connect</h1>
           </div>
           <div>
             {user ? (
@@ -147,8 +147,8 @@ const LandingPage = () => {
           <div className="flex flex-col md:flex-row justify-between">
             <div className="mb-8 md:mb-0">
               <div className="flex items-center">
-                <div className="h-8 w-8 rounded-md health-gradient flex items-center justify-center text-white font-bold mr-2">V</div>
-                <h2 className="text-xl font-bold">Vita Health Link</h2>
+                <div className="h-8 w-8 rounded-md health-gradient flex items-center justify-center text-white font-bold mr-2">M</div>
+                <h2 className="text-xl font-bold">MediCare Connect</h2>
               </div>
               <p className="mt-2 text-sm text-gray-300">
                 Connecting healthcare providers and patients
@@ -183,7 +183,7 @@ const LandingPage = () => {
           </div>
           <div className="mt-8 border-t border-gray-700 pt-8 md:flex md:items-center md:justify-between">
             <p className="text-sm text-gray-300">
-              &copy; {new Date().getFullYear()} Vita Health Link. All rights reserved.
+              &copy; {new Date().getFullYear()} MediCare Connect. All rights reserved.
             </p>
           </div>
         </div>
