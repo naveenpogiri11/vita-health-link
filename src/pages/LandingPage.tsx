@@ -1,7 +1,7 @@
-
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { useAuth } from "@/contexts/AuthContext";
+import { Calendar, FileText, Users } from "lucide-react";
 
 const LandingPage = () => {
   const navigate = useNavigate();
@@ -35,7 +35,6 @@ const LandingPage = () => {
       </header>
 
       <main>
-        {/* Hero Section */}
         <section className="bg-health-accent py-12 sm:py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="lg:flex lg:items-center lg:justify-between">
@@ -77,7 +76,6 @@ const LandingPage = () => {
           </div>
         </section>
 
-        {/* Features Section */}
         <section className="py-12 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
