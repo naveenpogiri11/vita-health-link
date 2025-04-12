@@ -17,7 +17,7 @@ import {
 import { useAuth, UserRole } from "@/contexts/AuthContext";
 import { Button } from "@/components/ui/button";
 import { 
-  Calendar, 
+  CalendarIcon, 
   ClipboardList, 
   FileText, 
   Home, 
@@ -44,14 +44,14 @@ const Layout = () => {
       setMenuItems([
         { title: "Dashboard", url: "/dashboard", icon: Home },
         { title: "My Profile", url: "/patient/profile", icon: User },
-        { title: "Appointments", url: "/patient/appointments", icon: Calendar },
+        { title: "Appointments", url: "/patient/appointments", icon: CalendarIcon },
         { title: "Medical Reports", url: "/patient/reports", icon: FileText },
       ]);
     } else if (user.role === "doctor") {
       setMenuItems([
         { title: "Dashboard", url: "/dashboard", icon: Home },
         { title: "My Profile", url: "/doctor/profile", icon: User },
-        { title: "My Schedule", url: "/doctor/schedule", icon: Calendar },
+        { title: "My Schedule", url: "/doctor/schedule", icon: CalendarIcon },
         { title: "My Patients", url: "/doctor/patients", icon: Users },
       ]);
     }
